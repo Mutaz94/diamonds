@@ -1,0 +1,13 @@
+---
+title: Diamonds
+--- 
+
+
+```{r}
+library(ggplot2)
+ggplot(diamonds, aes(carat, price)) + 
+    geom_point()
+```
+
+
+This plot was created at `r Sys.Date()`
